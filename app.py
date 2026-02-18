@@ -10,7 +10,7 @@ st.set_page_config(page_title="Live CSV Dashboard", layout="wide")
 st.title("📈 Live Dashboard op basis van CSV")
 st.caption("Dit dashboard leest periodiek opnieuw uit een CSV-bestand.")
 
-DEFAULT_CSV = Path("C:\\Users\\Administrator\\Downloads\\amazon_sales_dataset.csv")
+DEFAULT_CSV = Path("C:/Users/Administrator/Downloads/amazon_sales_dataset.csv")
 
 with st.sidebar:
     st.header("Instellingen")
